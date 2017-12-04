@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIDevice+YA.h"
+#import "YABasicUtilites.h"
 
 FOUNDATION_EXPORT double YABasicUtilitesVersionNumber;
 FOUNDATION_EXPORT const unsigned char YABasicUtilitesVersionString[];
