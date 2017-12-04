@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YABasicUtilites_Example' do
+  pod 'YABasicUtilites', :path => '../'
+
+  target 'YABasicUtilites_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
