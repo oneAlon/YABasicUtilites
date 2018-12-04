@@ -7,7 +7,10 @@
 
 #import <UIKit/UIKit.h>
 
+
+
 @interface UIDevice (YA)
+
 
  /**
   获取手机型号

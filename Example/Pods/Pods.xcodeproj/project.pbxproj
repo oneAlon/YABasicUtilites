@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		278DBEE2B9781444E5896FFA32C52CCC /* YABasicUtilites-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5000B44986631DE43708762919B30ABD /* YABasicUtilites-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A1B79F556270A43CF26FE2C1A4866D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3076C3DB21B6166C002D0A47 /* UIApplication+YASetContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3076C3D921B6166C002D0A47 /* UIApplication+YASetContent.h */; };
+		3076C3DC21B6166C002D0A47 /* UIApplication+YASetContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076C3DA21B6166C002D0A47 /* UIApplication+YASetContent.m */; };
+		3076C3E021B61D0C002D0A47 /* YASingletionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3076C3DE21B61D0C002D0A47 /* YASingletionManager.h */; };
+		3076C3E121B61D0C002D0A47 /* YASingletionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076C3DF21B61D0C002D0A47 /* YASingletionManager.m */; };
+		3076C3E421B61D86002D0A47 /* YASingletion.h in Headers */ = {isa = PBXBuildFile; fileRef = 3076C3E221B61D86002D0A47 /* YASingletion.h */; };
+		3076C3E521B61D86002D0A47 /* YASingletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076C3E321B61D86002D0A47 /* YASingletion.m */; };
+		3076C3E921B61E58002D0A47 /* YARuntimeUtilites.h in Headers */ = {isa = PBXBuildFile; fileRef = 3076C3E721B61E58002D0A47 /* YARuntimeUtilites.h */; };
+		3076C3EA21B61E58002D0A47 /* YARuntimeUtilites.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076C3E821B61E58002D0A47 /* YARuntimeUtilites.m */; };
+		3076C3EE21B62038002D0A47 /* YAWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3076C3EC21B62038002D0A47 /* YAWeakTimer.h */; };
+		3076C3EF21B62038002D0A47 /* YAWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076C3ED21B62038002D0A47 /* YAWeakTimer.m */; };
+		3076C3F321B62180002D0A47 /* YAJsonSerializerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3076C3F121B62180002D0A47 /* YAJsonSerializerItem.h */; };
+		3076C3F421B62180002D0A47 /* YAJsonSerializerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076C3F221B62180002D0A47 /* YAJsonSerializerItem.m */; };
 		36F79793512CCB5878BEC82D1159AD15 /* YABasicUtilites-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 729A1AC1CBD5853A03AD1C0C97C88930 /* YABasicUtilites-dummy.m */; };
 		6E52BABE52092109FEFABDFD38034D5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6E6C0AF024AA009F768EA631A432BADA /* Pods-YABasicUtilites_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A01C759ED3EF8CB71265B1B5640EF529 /* Pods-YABasicUtilites_Example-dummy.m */; };
@@ -32,10 +44,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B9A1C83144732735A3D450D503CB0C6 /* Pods-YABasicUtilites_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YABasicUtilites_Example.modulemap"; sourceTree = "<group>"; };
-		141053FAD274458F7D308FE9DEBC7223 /* YABasicUtilites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YABasicUtilites.framework; path = YABasicUtilites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9A1C83144732735A3D450D503CB0C6 /* Pods-YABasicUtilites_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YABasicUtilites_Example.modulemap"; sourceTree = "<group>"; };
+		141053FAD274458F7D308FE9DEBC7223 /* YABasicUtilites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YABasicUtilites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CA4FDD4C6A03EB10CF91B6EAE1D87D /* UIDevice+YA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YA.m"; sourceTree = "<group>"; };
 		3049B1A70299341EF24337AB7C857FB9 /* YABasicUtilites.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YABasicUtilites.xcconfig; sourceTree = "<group>"; };
+		3076C3D921B6166C002D0A47 /* UIApplication+YASetContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+YASetContent.h"; sourceTree = "<group>"; };
+		3076C3DA21B6166C002D0A47 /* UIApplication+YASetContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+YASetContent.m"; sourceTree = "<group>"; };
+		3076C3DE21B61D0C002D0A47 /* YASingletionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YASingletionManager.h; sourceTree = "<group>"; };
+		3076C3DF21B61D0C002D0A47 /* YASingletionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YASingletionManager.m; sourceTree = "<group>"; };
+		3076C3E221B61D86002D0A47 /* YASingletion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YASingletion.h; sourceTree = "<group>"; };
+		3076C3E321B61D86002D0A47 /* YASingletion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YASingletion.m; sourceTree = "<group>"; };
+		3076C3E721B61E58002D0A47 /* YARuntimeUtilites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YARuntimeUtilites.h; sourceTree = "<group>"; };
+		3076C3E821B61E58002D0A47 /* YARuntimeUtilites.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YARuntimeUtilites.m; sourceTree = "<group>"; };
+		3076C3EC21B62038002D0A47 /* YAWeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YAWeakTimer.h; path = ../YABasicUtilites/Classes/YARuntime/YAWeakTimer.h; sourceTree = "<group>"; };
+		3076C3ED21B62038002D0A47 /* YAWeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YAWeakTimer.m; path = ../YABasicUtilites/Classes/YARuntime/YAWeakTimer.m; sourceTree = "<group>"; };
+		3076C3F121B62180002D0A47 /* YAJsonSerializerItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAJsonSerializerItem.h; sourceTree = "<group>"; };
+		3076C3F221B62180002D0A47 /* YAJsonSerializerItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAJsonSerializerItem.m; sourceTree = "<group>"; };
 		343E5854E0015503D8F73E1509D1A19F /* YABasicUtilites.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YABasicUtilites.h; path = YABasicUtilites/Classes/YABasicUtilites.h; sourceTree = "<group>"; };
 		4173FA907AFF5341DDA3E858FA444F52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4432238A92BABACFAAF8556B295B27A8 /* Pods-YABasicUtilites_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YABasicUtilites_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -45,14 +69,14 @@
 		5000B44986631DE43708762919B30ABD /* YABasicUtilites-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YABasicUtilites-umbrella.h"; sourceTree = "<group>"; };
 		518D76C20757882FDB15C2B3E894F09A /* Pods-YABasicUtilites_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YABasicUtilites_Tests-resources.sh"; sourceTree = "<group>"; };
 		5DE025795E5F737B8D8226EC25258BF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		652B85915E0576CB023E94C5DFC5C749 /* Pods_YABasicUtilites_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YABasicUtilites_Tests.framework; path = "Pods-YABasicUtilites_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		652B85915E0576CB023E94C5DFC5C749 /* Pods_YABasicUtilites_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YABasicUtilites_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A231A30178EE486A8933D9D4BA15445 /* Pods-YABasicUtilites_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YABasicUtilites_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6F8C28F041998E2C4D82D41DEFEC7BF7 /* Pods-YABasicUtilites_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YABasicUtilites_Example-resources.sh"; sourceTree = "<group>"; };
 		729A1AC1CBD5853A03AD1C0C97C88930 /* YABasicUtilites-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YABasicUtilites-dummy.m"; sourceTree = "<group>"; };
-		826F07414225FCF7484F088F36079CB4 /* YABasicUtilites.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YABasicUtilites.modulemap; sourceTree = "<group>"; };
-		83E8FDFE82C4ED0B36309F6B38F46EF9 /* Pods-YABasicUtilites_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YABasicUtilites_Tests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		826F07414225FCF7484F088F36079CB4 /* YABasicUtilites.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YABasicUtilites.modulemap; sourceTree = "<group>"; };
+		83E8FDFE82C4ED0B36309F6B38F46EF9 /* Pods-YABasicUtilites_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YABasicUtilites_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B2948BA047FFCD06653E6EB56AA6B40 /* Pods-YABasicUtilites_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YABasicUtilites_Example-umbrella.h"; sourceTree = "<group>"; };
 		A01C759ED3EF8CB71265B1B5640EF529 /* Pods-YABasicUtilites_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YABasicUtilites_Example-dummy.m"; sourceTree = "<group>"; };
 		A529C07E90FDFEB6E3CC31E3A1941D04 /* Pods-YABasicUtilites_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YABasicUtilites_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,7 +89,7 @@
 		DEBE195BBA96F670B375D608B0B201AA /* Pods-YABasicUtilites_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YABasicUtilites_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E30665F7E42AB4CCE82B00B6529FEC58 /* Pods-YABasicUtilites_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YABasicUtilites_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E34B8F38B19A7B1703B9EF063E757C74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F54C3BD4746A104BFF7E76DA4B684025 /* Pods_YABasicUtilites_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YABasicUtilites_Example.framework; path = "Pods-YABasicUtilites_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54C3BD4746A104BFF7E76DA4B684025 /* Pods_YABasicUtilites_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YABasicUtilites_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +144,57 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3076C3D821B61628002D0A47 /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				3076C3D921B6166C002D0A47 /* UIApplication+YASetContent.h */,
+				3076C3DA21B6166C002D0A47 /* UIApplication+YASetContent.m */,
+			);
+			name = UIApplication;
+			path = YABasicUtilites/Classes/UIApplication;
+			sourceTree = "<group>";
+		};
+		3076C3DD21B61CE8002D0A47 /* YASingletion */ = {
+			isa = PBXGroup;
+			children = (
+				3076C3DE21B61D0C002D0A47 /* YASingletionManager.h */,
+				3076C3DF21B61D0C002D0A47 /* YASingletionManager.m */,
+				3076C3E221B61D86002D0A47 /* YASingletion.h */,
+				3076C3E321B61D86002D0A47 /* YASingletion.m */,
+			);
+			name = YASingletion;
+			path = YABasicUtilites/Classes/YASingletion;
+			sourceTree = "<group>";
+		};
+		3076C3E621B61E25002D0A47 /* YARuntime */ = {
+			isa = PBXGroup;
+			children = (
+				3076C3E721B61E58002D0A47 /* YARuntimeUtilites.h */,
+				3076C3E821B61E58002D0A47 /* YARuntimeUtilites.m */,
+			);
+			name = YARuntime;
+			path = YABasicUtilites/Classes/YARuntime;
+			sourceTree = "<group>";
+		};
+		3076C3EB21B61FF9002D0A47 /* NSTime */ = {
+			isa = PBXGroup;
+			children = (
+				3076C3EC21B62038002D0A47 /* YAWeakTimer.h */,
+				3076C3ED21B62038002D0A47 /* YAWeakTimer.m */,
+			);
+			path = NSTime;
+			sourceTree = "<group>";
+		};
+		3076C3F021B6216A002D0A47 /* YAJsonSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				3076C3F121B62180002D0A47 /* YAJsonSerializerItem.h */,
+				3076C3F221B62180002D0A47 /* YAJsonSerializerItem.m */,
+			);
+			name = YAJsonSerializer;
+			path = YABasicUtilites/Classes/YAJsonSerializer;
+			sourceTree = "<group>";
+		};
 		3C7EE48EA6488CCC49A4831D803F8A6C /* UIDevice */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +237,11 @@
 			children = (
 				343E5854E0015503D8F73E1509D1A19F /* YABasicUtilites.h */,
 				01A29E8532A42380AE40879F6E0CBA9B /* Support Files */,
+				3076C3D821B61628002D0A47 /* UIApplication */,
+				3076C3E621B61E25002D0A47 /* YARuntime */,
+				3076C3DD21B61CE8002D0A47 /* YASingletion */,
+				3076C3EB21B61FF9002D0A47 /* NSTime */,
+				3076C3F021B6216A002D0A47 /* YAJsonSerializer */,
 				3C7EE48EA6488CCC49A4831D803F8A6C /* UIDevice */,
 			);
 			name = YABasicUtilites;
@@ -244,8 +324,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3076C3DB21B6166C002D0A47 /* UIApplication+YASetContent.h in Headers */,
+				3076C3E021B61D0C002D0A47 /* YASingletionManager.h in Headers */,
+				3076C3E421B61D86002D0A47 /* YASingletion.h in Headers */,
+				3076C3F321B62180002D0A47 /* YAJsonSerializerItem.h in Headers */,
 				B532394AFA28C514CD4E70B414155CBD /* UIDevice+YA.h in Headers */,
+				3076C3E921B61E58002D0A47 /* YARuntimeUtilites.h in Headers */,
 				278DBEE2B9781444E5896FFA32C52CCC /* YABasicUtilites-umbrella.h in Headers */,
+				3076C3EE21B62038002D0A47 /* YAWeakTimer.h in Headers */,
 				982B67056BB50797CB20F08148C4198E /* YABasicUtilites.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,7 +398,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -338,8 +424,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3076C3EF21B62038002D0A47 /* YAWeakTimer.m in Sources */,
 				C993A3CBAA0646FF2E371B64AFE0947E /* UIDevice+YA.m in Sources */,
+				3076C3EA21B61E58002D0A47 /* YARuntimeUtilites.m in Sources */,
+				3076C3E121B61D0C002D0A47 /* YASingletionManager.m in Sources */,
 				36F79793512CCB5878BEC82D1159AD15 /* YABasicUtilites-dummy.m in Sources */,
+				3076C3DC21B6166C002D0A47 /* UIApplication+YASetContent.m in Sources */,
+				3076C3F421B62180002D0A47 /* YAJsonSerializerItem.m in Sources */,
+				3076C3E521B61D86002D0A47 /* YASingletion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +477,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -392,6 +485,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -536,6 +630,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -543,6 +638,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
