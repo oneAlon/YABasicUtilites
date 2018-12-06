@@ -63,7 +63,7 @@
 		7F21EAF74DA43360D3A06B73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CD36BA187D1432129232622 /* Pods-YABasicUtilites_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YABasicUtilites_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YABasicUtilites_Tests/Pods-YABasicUtilites_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B06F8DC0AE34B955A5B8144D /* YABasicUtilites.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YABasicUtilites.podspec; path = ../YABasicUtilites.podspec; sourceTree = "<group>"; };
+		B06F8DC0AE34B955A5B8144D /* YABasicUtilites.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YABasicUtilites.podspec; path = ../YABasicUtilites.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B21CBCE5E32A56531AF413AB /* Pods-YABasicUtilites_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YABasicUtilites_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YABasicUtilites_Tests/Pods-YABasicUtilites_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DBC7A4171DA6B8161F24099F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F7502FF87D13930692B7C036 /* Pods_YABasicUtilites_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YABasicUtilites_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,7 +208,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				86B993856FE1DCFE663F46AA /* [CP] Embed Pods Frameworks */,
-				037709790185C00BCA9C8AAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,8 +226,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				A444A017BD10E4B6B6E9E118 /* [CP] Embed Pods Frameworks */,
-				42643B08F2A37981290C69DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,21 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		037709790185C00BCA9C8AAC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YABasicUtilites_Example/Pods-YABasicUtilites_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		37BA4EF7584A9087E51E7B13 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,21 +330,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		42643B08F2A37981290C69DE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YABasicUtilites_Tests/Pods-YABasicUtilites_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		86B993856FE1DCFE663F46AA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,30 +337,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-YABasicUtilites_Example/Pods-YABasicUtilites_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YABasicFoundation/YABasicFoundation.framework",
 				"${BUILT_PRODUCTS_DIR}/YABasicUtilites/YABasicUtilites.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YABasicFoundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YABasicUtilites.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YABasicUtilites_Example/Pods-YABasicUtilites_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A444A017BD10E4B6B6E9E118 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YABasicUtilites_Tests/Pods-YABasicUtilites_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
