@@ -12,9 +12,6 @@
 #pragma mark -- UIDevice
 #import "UIDevice+YA.h"
 
-#pragma mark -- YAJsonSerializerItem
-#import "YAJsonSerializerItem.h"
-
 #pragma mark -- NSTime
 #import "YAWeakTimer.h"
 

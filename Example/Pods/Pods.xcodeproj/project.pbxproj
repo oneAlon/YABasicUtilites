@@ -33,7 +33,6 @@
 		55AB892218246F75EB7DC0893AD3E860 /* NSNotificationCenter+YA.h in Headers */ = {isa = PBXBuildFile; fileRef = 59893BED6AC48B9523279FEDF60191B2 /* NSNotificationCenter+YA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6445799DF7DAFAFA3256CBBD79883036 /* YABasicUtilites.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B6777B8BBC536871A7A2FA568B35A /* YABasicUtilites.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68F93773D5862A31E4F4F6B66F9378FC /* NSDateFormatter+YA.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C7E0BD4750ECD24E6B35BBF884F4BF /* NSDateFormatter+YA.m */; };
-		6BC415FC9ED4435D4FBAD1EA45F962CA /* YAJsonSerializerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2362D98F1AF2E6B991749103536034A1 /* YAJsonSerializerItem.m */; };
 		7C4486D346274ACAD7EBF3EC4EE313B7 /* NSNotificationCenter+YA.m in Sources */ = {isa = PBXBuildFile; fileRef = 96391C6ED1F35B6427D746BA07E3A6C2 /* NSNotificationCenter+YA.m */; };
 		860CBC0B136D5A48009237F7C63E77AD /* Pods-YABasicUtilites_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CBBB16D82E728B651C92E6D80EC64E /* Pods-YABasicUtilites_Example-dummy.m */; };
 		8DA96F5C44C1FEA76897222CC3E84D5D /* YARuntimeUtilites.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF9FA1F937628A69E5AFF18D313D31 /* YARuntimeUtilites.m */; };
@@ -54,7 +53,6 @@
 		DE6C1038FAADF0D9362DBBEF70769001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1068DAAA1F6320BDA7DC4E7604BBA539 /* Foundation.framework */; };
 		E1EBF1564D57386C44D3DD20B7C62A98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1068DAAA1F6320BDA7DC4E7604BBA539 /* Foundation.framework */; };
 		E588447C7136CDF427B23360C146F85D /* NSMutableArray+YA.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1141F12DC8E7DC4E7A120A4D77AB96 /* NSMutableArray+YA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E609540206EACE671A90CABCE776DD9E /* YAJsonSerializerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB112365582BB2D5D9EBE44E7332473 /* YAJsonSerializerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8CA41ABBEF812A981581C97F9F9F19F /* NSDictionary+YA.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4DAA04E910B8F64CFDEA4FF95C7621 /* NSDictionary+YA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8ED3ED7E544CD38EEB7E7C0D38A1E85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB9197326799E78CE417147B5805C9F /* UIKit.framework */; };
 		FC7314F8F4298165F7A9E58A8CFD007A /* YABasicUtilites-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 525D288C2E885D8C3DEBEDED241CEB66 /* YABasicUtilites-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -105,11 +103,9 @@
 		21666A835CC5A21D062C5005372A34E8 /* YASingletionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YASingletionManager.h; sourceTree = "<group>"; };
 		2318C52C9DF52F150C19A550BF57B4F2 /* YABasicFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YABasicFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23506433426A0C5D1E963DFB86FAAB4D /* YABasicUtilites.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YABasicUtilites.xcconfig; sourceTree = "<group>"; };
-		2362D98F1AF2E6B991749103536034A1 /* YAJsonSerializerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YAJsonSerializerItem.m; sourceTree = "<group>"; };
 		241715F3688F013173494AEFB173DE55 /* Pods_YABasicUtilites_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YABasicUtilites_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EA1FB19B42218A549A056FC5EF9EB2 /* YAWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YAWeakTimer.h; sourceTree = "<group>"; };
 		284FC0F1B6929D91322C570CEAA016A4 /* Pods-YABasicUtilites_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YABasicUtilites_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2EB112365582BB2D5D9EBE44E7332473 /* YAJsonSerializerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YAJsonSerializerItem.h; sourceTree = "<group>"; };
 		3062C19221B921E900A22D8A /* YAAutoSerializationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAAutoSerializationItem.h; sourceTree = "<group>"; };
 		3062C19321B921E900A22D8A /* YAAutoSerializationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAAutoSerializationItem.m; sourceTree = "<group>"; };
 		3062C19421B921E900A22D8A /* YABaseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABaseItem.h; sourceTree = "<group>"; };
@@ -382,8 +378,6 @@
 		BD5CDB1868C837A4E56B72A343C1F626 /* YAJsonSerializer */ = {
 			isa = PBXGroup;
 			children = (
-				2EB112365582BB2D5D9EBE44E7332473 /* YAJsonSerializerItem.h */,
-				2362D98F1AF2E6B991749103536034A1 /* YAJsonSerializerItem.m */,
 			);
 			name = YAJsonSerializer;
 			path = YABasicUtilites/Classes/YAJsonSerializer;
@@ -475,7 +469,6 @@
 				C4B45B24012500FE07D0AB221E7D79B0 /* UIDevice+YA.h in Headers */,
 				FC7314F8F4298165F7A9E58A8CFD007A /* YABasicUtilites-umbrella.h in Headers */,
 				6445799DF7DAFAFA3256CBBD79883036 /* YABasicUtilites.h in Headers */,
-				E609540206EACE671A90CABCE776DD9E /* YAJsonSerializerItem.h in Headers */,
 				3062C19821B921E900A22D8A /* YABaseItem.h in Headers */,
 				2FFF4BDFF728C38E99896DB9DEA89AF8 /* YARuntimeUtilites.h in Headers */,
 				BD617CD02FD4A65B6193CAA79D4DCA3F /* YASingletion.h in Headers */,
@@ -608,6 +601,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -633,7 +627,6 @@
 				3062C19721B921E900A22D8A /* YAAutoSerializationItem.m in Sources */,
 				1D35684E2D2BDF259904C5906554FCE2 /* UIDevice+YA.m in Sources */,
 				4CCA965F8F1070C55C6EAB9A14EC2878 /* YABasicUtilites-dummy.m in Sources */,
-				6BC415FC9ED4435D4FBAD1EA45F962CA /* YAJsonSerializerItem.m in Sources */,
 				8DA96F5C44C1FEA76897222CC3E84D5D /* YARuntimeUtilites.m in Sources */,
 				4C0ECF21E3001C6B2371AF6B384C3239 /* YASingletion.m in Sources */,
 				0A3B84F6ECBCD868A7C8494CDE4BA7C9 /* YASingletionManager.m in Sources */,
