@@ -35,11 +35,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)ya_allowedNotification;
 
 /**
- 打开系统推送通知设置页面
- */
-- (void)ya_openNotificationSettings;
-
-/**
  打开app在appStore的主页面
  */
 - (void)ya_openAppStoreWithAppId:(NSString *)appId;

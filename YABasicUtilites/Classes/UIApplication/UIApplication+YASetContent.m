@@ -72,25 +72,6 @@
     return NO;
 }
 
-- (void)ya_openNotificationSettings
-{
-    NSString *url = nil;
-    
-    if (@available(iOS 10.0, *)) {
-        url = UIApplicationOpenSettingsURLString;
-    } else {
-        url = @"prefs:root=---.SSA";
-    }
-    
-    if ([self canOpenURL:[NSURL URLWithString:url]]) {
-        if (@available(iOS 10.0, *)) {
-            [self openURL:[NSURL URLWithString:url] options:@{} completionHandler:nil];
-        } else {
-            [self openURL:[NSURL URLWithString:url]];
-        }
-    }
-}
-
 - (void)ya_openAppStoreWithAppId:(NSString *)appId
 {
     NSString *appStoreString = [NSString stringWithFormat:@"itms-apps://itunes.apple.com/app/id%@", appId];
